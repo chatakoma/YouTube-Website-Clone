@@ -25,9 +25,6 @@ This project is a responsive reacreation of the YouTube homepage, build with HTM
 </ul>
 
 <h2>Program walk-through:</h2>
-
-<br/>
-
 <p align="center">
  
   The image below showcases the overall design of the YouTube homepage that I recreated.

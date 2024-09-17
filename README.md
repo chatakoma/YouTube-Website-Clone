@@ -11,11 +11,9 @@ This project is a responsive reacreation of the YouTube homepage, build with HTM
      <li>Video Grid layout</li>
      <li>Responsive Design</li>
     </ul>
-    
    </h4>
   </h3>  </b>
-<br />
-<h2>Tools Used </h2>
+<br /> <h2>Tools Used </h2>
 
 - <b>HTML</b> 
 - <b>CSS</b>
@@ -26,15 +24,15 @@ This project is a responsive reacreation of the YouTube homepage, build with HTM
 
 <h2>Program walk-through:</h2>
 
-<p align="center" style="margin-top:100px;">
+<p align="center">
  
-  The following image shows the overall look of the youtube website I reproduced.
+  The image below showcases the overall design of the YouTube homepage that I recreated.
  <br/> 
 <img src="https://i.imgur.com/OWwuEUl.png" height="100%" width="100%" alt=""/>  
 
 <br />
 <br />
-This is a video demo of the YouTube Clone Website.
+You can view a video demo of the YouTube Clone Website, highlighting its key features.
 
 https://github.com/user-attachments/assets/47bcf5ef-d3b7-4060-9f24-b4e95ae5f04f
 

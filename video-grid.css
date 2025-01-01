@@ -1,0 +1,172 @@
+
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 70px;
+  margin-top: 68px;
+  margin-left: 75px;
+  padding: 20px 15px 8px 20px;
+  background-color: rgb(238, 235, 235);
+  margin-right: 2px;
+  font-family: Roboto,Arial;
+}
+
+.thumbnail-container{
+  position: relative;
+  
+}
+
+.video-time{
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 10px;
+  right: 10px;
+  padding: 4px ;
+  font-family: Roboto,Arial;
+}
+
+@media(max-width:750px){
+  .video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+}
+
+@media(min-width:751px) and (max-width:999px){
+  video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+@media(min-width:1000px){
+  .video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+.video-preview{
+  width:100%;
+  height: 300px;
+  
+
+
+}
+
+.profile-video-info-container{
+  display: flex;
+  flex-direction: row;
+  
+
+
+}
+
+.thumbnail{
+  width: 100%;
+  height: 200px;
+  
+}
+
+.profile-picture{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 8px;
+
+}
+
+.profile-picture-container{
+  position: relative;
+  display: inline-block;
+}
+
+.profile-picture-container .tooltip{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  background-color: white;
+  width: 200px;
+  padding:8px;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px 2px rgba(148, 146, 146, 0.8);
+
+ 
+
+}
+
+.profile-picture-container:hover .tooltip{
+  opacity: 1;
+}
+
+
+.tooltip img{
+
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 24px;
+  margin-right: 6px;
+
+}
+
+
+.author-name{
+ font-family: Roboto,Arial;
+
+}
+
+.statistics-video{
+  font-family: Roboto,Arial;
+ 
+
+}
+
+
+.video-info{
+  font-size: 15px;
+  font-weight: 500px;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 16px;
+
+
+}
+
+.profile-video-info-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+
+  
+}
+
+.video-author{
+  font-size:13px ;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  color: gray;
+  
+
+
+}
+
+.video-stats{
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: gray;
+}
+
+.video-link{
+  color: black;
+  text-decoration:none ;
+}

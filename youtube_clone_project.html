@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>YouTube Clone Project</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css/video-grid.css" />
+    <link rel="stylesheet" href="styles.css/header.css" />
+    <link rel="stylesheet" href="styles.css/sidebar.css" />
+  </head>
+
+  <body>
+    <div class="header">
+
+      <div class="left-section">
+        <img class="hambergur-menu" src="icons/hamburger-menu.svg" alt="">
+       <div class="youtube-logo-container"><img class="youtube-logo" src="icons/youtube-logo.svg" alt=""></div>
+
+      </div>
+
+      <div class="middle-section">
+
+        <input class="search-bar" type="text" placeholder="Search" />
+
+       
+        <button class="search-button">
+          
+          <img src="icons/search.svg" alt="" />
+
+          <div class="tooltip">search</div>
+          
+        </button>
+
+        
+
+        <button class="voice-search-icon">
+          <img src="icons/voice-search-icon.svg" alt="">
+
+          <div class="tooltip">Search with your voice</div>
+        
+        </button>
+      </div>
+
+      <div class="right-section">
+
+        <div class="upload-icon">
+          <img class="upload" src="icons/upload.svg" alt="">
+          
+          <div class="tooltip">Create</div>
+
+        </div>
+       
+        <div class="youtube-apps-icon">
+         
+          <img class="youtube-apps" src="icons/youtube-apps.svg" alt="">
+
+          <div class="tooltip">youtube-apps</div>
+
+        </div>
+
+
+        <div class="notifications-container">
+         
+          <img class="notifications" src="icons/notifications.svg" alt="">
+          <div class="notifications-count">5</div>
+          <div class="tooltip">notifications</div>
+
+
+        </div>
+       
+        <img class="my-channel-profile" src="channel-pictures/my-channel.jpg" alt="">
+     
+      </div>
+
+    </div>
+
+
+
+    <div class="sidebar">
+
+      <div class="sidebar-icon">
+        <img src="icons/home.svg" alt="">
+       
+         Home
+       
+      </div>
+
+      <div class="sidebar-icon">
+        <img src="icons/explore.svg" alt="">
+        Explore
+      </div>
+
+      <div class="sidebar-icon">
+        <img src="icons/subscriptions.svg" alt="">
+        subscriptions
+
+      </div>
+
+
+      <div class="sidebar-icon">
+        <img src="icons/originals.svg" alt="">
+        originals
+      </div>
+
+      <div class="sidebar-icon">
+        <img src="icons/youtube-music.svg" alt="">
+        youtube-music
+      </div>
+
+      <div class="sidebar-icon">
+       <img src="icons/library.svg" alt="">
+        library
+      </div>
+
+    </div>
+
+
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-container">
+
+          <a href="https://www.youtube.com/watch?v=jk1YZHt3dpM">
+            <img class="thumbnail" src="thumbnails/thumbnail1.webp" alt="" />
+          </a>
+          <div class="video-time">13:00</div>
+        </div>
+        <div class="profile-video-info-container">
+          
+
+          <div class="profile-picture-container">
+
+            <a  href="https://www.youtube.com/@DamiLeeArch"
+              ><img
+                class="profile-picture"
+                src="channel-pictures/channel-picture1.jpg"
+                alt=""
+            /></a>
+
+            <div class="tooltip">
+
+              
+              <img src="channel-pictures/channel-picture1.jpg" alt="">
+             <div>
+              <div class="author-name">Damilee</div>
+              <div class="statistics-video">1M subscribers</div>
+ 
+
+             </div> 
+
+            </div>
+
+          </div>
+
+
+          <div>
+            <a class="video-link" href="https://www.youtube.com/watch?v=jk1YZHt3dpM">
+              <div>
+                <p class="video-info">How slow reading can change your brain</p>
+              </div>
+  
+            </a>
+
+            <div><p class="video-author">Damilee</p></div>
+            <div><p class="video-stats">2.2M views &#183; 2 years ago</p></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=QmOF0crdyRU"><img class="thumbnail" src="thumbnails/thumbnail2.webp" alt="" /></a>
+          <div class="video-time">14:00</div>
+        </div>
+
+        <div class="profile-video-info-container">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@hubermanlab"><img
+              class="profile-picture"
+              src="channel-pictures/channel-picture2.jpg"
+              alt=""
+            /></a>
+            <div class="tooltip">
+
+              
+              <img src="channel-pictures/channel-picture2.jpg" alt="">
+             <div>
+              <div class="author-name">Andrew Huberman</div>
+              <div class="statistics-video">3M subscribers</div>
+             </div> 
+
+            </div>
+            
+          </div>
+
+          <div>
+            <div>
+
+              <a class="video-link" href="https://www.youtube.com/watch?v=QmOF0crdyRU">
+                      <p class="video-info">
+                Controlling Your Dopamine for Motivation,Focus & Satisfaction
+              </p>
+            </div>
+
+              </a>
+
+              <div><p class="video-author">Andrew Huberman</p></div>
+            <div><p class="video-stats">10M views &#183; 2 years ago</p></div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=QijH4UAqGD8"><img class="thumbnail" src="thumbnails/thumbnail3.webp" alt="" /></a>
+          <div  class="video-time">15:00</div>
+
+        </div>
+        <div class="profile-video-info-container">
+
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@TED"><img
+              class="profile-picture"
+              src="channel-pictures/channel-picture3.jpg"
+              alt=""
+            /></a>
+
+            <div class="tooltip">
+
+              
+              <img src="channel-pictures/channel-picture3.jpg" alt="">
+             <div>
+              <div class="author-name">TED</div>
+              <div class="statistics-video">20M subscribers</div>
+ 
+
+             </div> 
+
+            </div>
+            
+          </div>
+
+          <div>
+            <a class="video-link" href="https://www.youtube.com/watch?v=QijH4UAqGD8">  <div>
+              <p class="video-info">Get comfortable with being uncomfortable</p>
+            </div>
+          </a>
+            <div><p class="video-author">Luvvie Ajayi</p></div>
+            <div><p class="video-stats">4.6M views &#183; 6 years ago</p></div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=UqLuyop6Xtc&t=1s">       <img class="thumbnail" src="thumbnails/thumbnail4.webp" alt="" /></a>
+          <div class="video-time">16:00</div>
+        </div>
+        <div class="profile-video-info-container">
+          
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@Drberg"><img
+              class="profile-picture"
+              src="channel-pictures/channel-picture4.jpg"
+              alt=""
+            /></a>
+
+            <div class="tooltip">  
+              <img src="channel-pictures/channel-picture4.jpg" alt="">
+             <div>
+              <div class="author-name">Dr.Eric Berg</div>
+              <div class="statistics-video">5M subscribers</div>
+ 
+
+             </div> 
+
+            </div>
+
+            
+          </div>
+
+          <div>
+
+            <a class="video-link" href="https://www.youtube.com/watch?v=UqLuyop6Xtc&t=1s">
+              <div>
+                <p class="video-info">
+                  23 Signs Your Body Needs More Nutrients
+                </p>
+              </div>
+     
+            </a>
+            
+            <div><p class="video-author">Dr.Eric Berg DC</p></div>
+            <div><p class="video-stats">13M views &#183; 2 years ago</p></div>
+          
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=2H5kpKBmIM4&list=WL&index=4">          <img class="thumbnail" src="thumbnails/thumbnail5.webp" alt="" /></a>
+          <div class="video-time">17:00</div>
+        </div>
+        <div class="profile-video-info-container">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@BestEverFoodReviewShow"><img
+              class="profile-picture"
+              src="channel-pictures/channel-picture5.jpg"
+              alt=""
+            /></a>
+            
+            <div class="tooltip">
+
+              
+              <img src="channel-pictures/channel-picture5.jpg" alt="">
+             <div>
+              <div class="author-name">Best Ever Food Review Show</div>
+              <div class="statistics-video">10M subscribers</div>
+ 
+             </div> 
+
+            </div>
+          </div>
+
+          <div>
+            <a class="video-link" href="https://www.youtube.com/watch?v=2H5kpKBmIM4&list=WL&index=4">
+                    <div>
+              <p class="video-info">
+                Africa's Besst Street Food in this Country!!
+              </p>
+            </div>
+
+            </a>
+            
+            <div><p class="video-author">Best Ever Food Review Show</p></div>
+            <div>
+              <p class="video-stats">2.3M views &#183; 11 months ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=r-hHoIsGciY"><img class="thumbnail" src="thumbnails/thumbnail6.webp" alt="" /></a>
+          <div class="video-time">18:00</div>
+        </div>
+        <div class="profile-video-info-container">
+          <div class="profile-picture-container">
+
+            <a href="https://www.youtube.com/@PapahChannel"><img
+              class="profile-picture"
+              src="channel-pictures/channel-picture6.jpg"
+              alt=""
+            /></a>
+            <div class="tooltip">
+
+              
+              <img src="channel-pictures/channel-picture6.jpg" alt="">
+             <div>
+              <div class="author-name">Papah</div>
+              <div class="statistics-video">300K subscribers</div>
+ 
+
+             </div> 
+
+            </div>
+            
+          </div>
+
+          <div>
+
+            <a class="video-link" href="https://www.youtube.com/watch?v=r-hHoIsGciY"><div>
+              <p class="video-info">
+                Mexican Dads try Nigerian Food for the First Time!
+              </p>
+            </div></a>
+            
+            <div><p class="video-author">Papah!</p></div>
+            <div><p class="video-stats">335K views &#183; 3 months ago</p></div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=BrgHBzF1nug&list=WL&index=3&t=11s"> <img class="thumbnail" src="thumbnails/thumbnail7.webp" alt="" /></a>
+         <div class="video-time">19:00</div>
+        </div>
+        <div class="profile-video-info-container">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@AfriqueRevelee"> <img
+              class="profile-picture"
+              src="channel-pictures/channel-picture7.jpg"
+              alt=""
+            /></a>
+            <div class="tooltip">
+
+              
+              <img src="channel-pictures/channel-picture7.jpg" alt="">
+             <div>
+              <div class="author-name">Afrique Revelee</div>
+              <div class="statistics-video">350K subscribers</div>
+ 
+
+             </div> 
+
+            </div>
+           
+          </div>
+
+          <div>
+            <a class="video-link" href="https://www.youtube.com/watch?v=BrgHBzF1nug&list=WL&index=3&t=11s"><div>
+              <p class="video-info">
+                10 FAITS INTÉRESSANTS À APPRENDRE SUR LE BURKINA FASO
+              </p>
+            </div></a>
+            
+            <div><p class="video-author">Afrique Revelee</p></div>
+            <div><p class="video-stats">423K views &#183; 1 year ago</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=L8W1tbEVyOM&t=26s">   <img class="thumbnail" src="thumbnails/thumbnail8.webp" alt="" /></a>
+          <div class="video-time">21:00</div>
+        </div>
+        <div class="profile-video-info-container">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@NateOBrien"> <img
+              class="profile-picture"
+              src="channel-pictures/channel-picture8.jpg"
+              alt=""
+            /></a>
+
+            <div class="tooltip">
+
+              
+              <img src="channel-pictures/channel-picture8.jpg" alt="">
+             <div>
+              <div class="author-name">Nate O'Brien</div>
+              <div class="statistics-video">2M subscribers</div>
+ 
+
+             </div> 
+
+            </div>
+           
+          </div>
+
+          <div>
+            <a class="video-link" href="   <img class="thumbnail" src="thumbnails/thumbnail8.webp" alt="" /><div>
+              <p class="video-info">
+                Money Saving Tips || How to Save Money(Best Strategy)
+              </p>
+            </div></a>
+            
+            <div><p class="video-author">Nate O'Brien</p></div>
+            <div><p class="video-stats">1.9M views &#183; 5 years ago</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=BHY0FxzoKZE"> <img class="thumbnail" src="thumbnails/thumbnail9.webp" alt="" /></a>
+          <div class="video-time">30:00</div>
+        </div>
+        <div class="profile-video-info-container">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@TED"> <img
+              class="profile-picture"
+              src="channel-pictures/channel-picture9.jpg"
+              alt=""
+            /></a>
+            <div class="tooltip">
+
+              
+              <img src="channel-pictures/channel-picture9.jpg" alt="">
+             <div>
+              <div class="author-name">TED</div>
+              <div class="statistics-video">20M subscribers</div>
+ 
+
+             </div> 
+
+            </div>
+           
+          </div>
+
+          <div>
+            <a class="video-link" href=" <img class="thumbnail" src="thumbnails/thumbnail9.webp" alt="" /><div>
+              <p class="video-info">
+                The brain-changing benefits of exercise | TED
+              </p>
+            </div></a>
+            
+            <div><p class="video-author">TED</p></div>
+            <div><p class="video-stats">10M views &#183; 6 years ago</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=NuFGhYYDYVE&t=6s">          <img class="thumbnail" src="thumbnails/thumbnail10.webp" alt="" /></a>
+          <div class="video-time">34:00</div>
+       
+        </div>
+        <div class="profile-video-info-container">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@ResilientDeen"> <img
+              class="profile-picture"
+              src="channel-pictures/channel-picture10.jpg"
+              alt=""
+            /></a>
+
+            <div class="tooltip">
+
+              
+              <img src="channel-pictures/channel-picture10.jpg" alt="">
+             <div>
+              <div class="author-name">ResillientDeen</div>
+              <div class="statistics-video">400K subscribers</div>
+ 
+
+             </div> 
+
+            </div>
+           
+          </div>
+
+          <div>
+            <a class="video-link" href="https://www.youtube.com/watch?v=NuFGhYYDYVE&t=6s"> <div>
+              <p class="video-info">
+                7 Powerful Mustlim Secrets to Level Up Your Life | ISLAM
+              </p>
+            </div></a>
+           
+            <div><p class="video-author">ResilientDeen</p></div>
+            <div><p class="video-stats">6.5K views &#183; 6 days ago</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=fBnAMUkNM2k&t=2s">          <img class="thumbnail" src="thumbnails/thumbnail11.webp" alt="" /></a>
+          <div class="video-time">35:00</div>
+        </div>
+        <div class="profile-video-info-container">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@EnglishSpeeches"><img
+              class="profile-picture"
+              src="channel-pictures/channel-picture11.jpg"
+              alt=""
+            /></a>
+
+            <div class="tooltip">
+
+              
+              <img src="channel-pictures/channel-picture11.jpg" alt="">
+             <div>
+              <div class="author-name">English Speeches</div>
+              <div class="statistics-video">10M subscribers</div>
+ 
+
+             </div> 
+
+            </div>
+            
+          </div>
+
+          <div>
+            <a class="video-link" href="https://www.youtube.com/watch?v=fBnAMUkNM2k&t=2s"><div>
+              <p class="video-info">We all are Perfectly Imperfect</p>
+            </div></a>
+            
+            <div>
+              <p class="video-author"></p>
+              English Speeches
+            </div>
+            <div><p class="video-stats">29M views &#183; 6 years ago</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <a href="https://www.youtube.com/watch?v=dHAbmoFHqgA"><img class="thumbnail" src="thumbnails/thumbnail12.webp" alt="" /></a>
+          <div class="video-time">38:00</div>
+        </div>
+
+        <div class="profile-video-info-container">
+         
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@TED"> <img
+              class="profile-picture"
+              src="channel-pictures/channel-picture12.jpg"
+              alt=""
+            /></a>
+            <div class="tooltip">
+
+              
+              <img src="channel-pictures/channel-picture12.jpg" alt="">
+             <div>
+              <div class="author-name">Mindvalley talks</div>
+              <div class="statistics-video">5M subscribers</div>
+ 
+
+             </div> 
+
+            </div>
+           
+          </div>
+
+          <div>
+            <a class="video-link" href="https://www.youtube.com/watch?v=dHAbmoFHqgA"><div>
+              <p class="video-info">
+                How to Become A Master In the Art of Public Speaking(Part 1 of
+                2)
+              </p>
+            </div></a>
+            
+            <div><p class="video-author">Mindvalley Talks</p></div>
+            <div><p class="video-stats">2.7M views &#183; 5 years ago</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

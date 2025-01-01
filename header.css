@@ -1,0 +1,205 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color:white;
+  align-items: center;
+  height: 45px;
+  position: fixed;
+  border: 1px solid rgb(239, 236, 236);
+  padding-bottom: 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.left-section{
+  
+  width: 300px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+
+}
+
+.hambergur-menu{
+  width: 25px;
+  height: 25px;
+  margin-left: 26px;
+  
+}
+
+
+.youtube-logo{
+  width: 90px;
+  object-fit: cover;
+  margin-left: 20px;
+  
+
+}
+
+
+.middle-section{
+  display: flex;
+  flex: 1;
+  height: 34px;
+  max-width: 500px;
+  margin-left:50px;
+  margin-right:70px 
+
+}
+
+.voice-search-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 8px;
+  background-color: rgb(245, 243, 243);
+}
+
+.voice-search-icon img {
+  width: 24px;
+}
+
+.right-section{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 200px;
+height: 30px;
+
+
+}
+
+.upload{
+ width: 26px;
+
+}
+.youtube-apps{
+  width: 26px;
+
+}
+.notifications{
+  width: 26px;
+
+}
+.notifications-container{
+position: relative;
+
+}
+
+.notifications-count{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(205, 1, 1);
+  width: 16px;
+  color: white;
+  height: 16px;
+  border-radius: 8px;
+  top: -4px;
+  right: -2px;
+}
+
+
+
+.my-channel-profile{
+  width: 30px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-right: 14px;
+
+
+}
+
+.search-bar{
+  flex: 1;
+  height: 36px;
+  width: 0;
+  font-size: 18px;
+  
+}
+
+/*Here we are targeting the sudo class placeholder. We want to make the size of 
+of Search text a little larger.*/
+
+.search-bar::placeholder{
+  font-size: 18px;
+}
+
+img{
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  
+
+}
+
+.search-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:42px ;
+  margin-left: -2px;
+  padding-left: 10px;
+}
+
+
+.search-button,
+.voice-search-icon,
+.upload-icon,
+.youtube-apps-icon,
+.notifications-container
+{
+  position: relative;
+
+}
+
+.search-button .tooltip,
+.voice-search-icon .tooltip,
+.upload-icon .tooltip,
+.youtube-apps-icon .tooltip,
+.notifications-container .tooltip
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  width: 90px;
+  padding: 8px; 
+  bottom: -32px;
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+
+}
+
+
+
+.voice-search-icon .tooltip
+{
+  white-space: nowrap;
+  padding: 8px 40px 8px 20px; 
+}
+
+.search-button:hover .tooltip,
+.voice-search-icon:hover .tooltip,
+.upload-icon:hover  .tooltip,
+.youtube-apps-icon:hover .tooltip,
+.notifications-container:hover .tooltip
+
+{
+  opacity: 1;
+
+}

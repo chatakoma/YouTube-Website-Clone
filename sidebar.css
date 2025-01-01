@@ -1,0 +1,39 @@
+.sidebar{
+ position: fixed;
+ top:70px;
+ left: 0;
+ bottom: 0;
+ width: 75px;
+ 
+
+
+
+}
+
+.sidebar-icon{
+  display: flex;
+  flex-direction: column;
+  height: 70px; 
+  margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 12px;
+  
+}
+
+.sidebar-icon:hover{
+  background-color: rgb(228, 223, 223);
+
+}
+
+/* we are targeting all the images in the sidebar-icon block*/
+.sidebar-icon img {
+ width: 20px;
+ height: 22px;
+ object-fit: cover;
+
+}
+
+
+
